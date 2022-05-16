@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="Bank Guru" name="Suite">
+
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.techpanda.cart.TC_02_Add_Product_From_Product_List" />
+		</classes>
+	</test>
+
+<!--	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.techpanda.mobile.Practice_06_Purchase_Product" />
+		</classes>
+	</test>-->
+</suite>
