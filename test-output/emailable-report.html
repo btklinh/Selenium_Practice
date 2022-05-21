@@ -9,12 +9,37 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Run on Chrome</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,074</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Run on Chrome</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,779</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.techpanda.cart.TC_02_Add_Product_From_Product_List</td><td><a href="#m0">TC_06_Verify_Cart_Grandtotal_Price</a></td><td rowspan="1">1652093417894</td><td rowspan="1">13238</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.techpanda.page.TC_01_Header</td><td><a href="#m0">TC_08_Verify_Header_My_Shopping_Cart</a></td><td rowspan="1">1653168411726</td><td rowspan="1">3834</td></tr><tr><th colspan="4">Run on Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.techpanda.page.TC_01_Header</td><td><a href="#m1">TC_01_Verify_Header_Submenu_Account_Without_Login</a></td><td rowspan="1">1653168405796</td><td rowspan="1">237</td></tr><tr class="passedeven"><td><a href="#m2">TC_03_Verify_Header_My_Account_Page</a></td><td rowspan="1">1653168406035</td><td rowspan="1">3532</td></tr><tr class="passedeven"><td><a href="#m3">TC_05_Verify_Header_My_Wishlist_Page</a></td><td rowspan="1">1653168409568</td><td rowspan="1">1131</td></tr><tr class="passedeven"><td><a href="#m4">TC_07_Verify_Header_My_Shopping_Cart_Blank</a></td><td rowspan="1">1653168410700</td><td rowspan="1">1025</td></tr></tbody>
 </table>
-<h2>Run on Chrome</h2><h3 id="m0">com.techpanda.cart.TC_02_Add_Product_From_Product_List#TC_06_Verify_Cart_Grandtotal_Price</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1315.0] but found [1249.25]
-	at com.techpanda.cart.TC_02_Add_Product_From_Product_List.TC_06_Verify_Cart_Grandtotal_Price(TC_02_Add_Product_From_Product_List.java:235)
+<h2>Run on Chrome</h2><h3 id="m0">com.techpanda.page.TC_01_Header#TC_08_Verify_Header_My_Shopping_Cart</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-05-22 04:26:51,727] TC08 - Step 01: Click to 'Mobile' menu in the header
+<br><br/>[INFO ] [2022-05-22 04:26:53,081] TC08 - Step 02: Add 'Iphone' to the cart
+<br><br/>[INFO ] [2022-05-22 04:26:54,841] TC08 - Step 03: Click to 'My Cart' menu in the header
+<br><br/>[INFO ] [2022-05-22 04:26:55,554] TC08 - Step 04: Verify Shopping Cart is displayed
+<br><br/>[INFO ] [2022-05-22 04:26:55,559]  -------------------------- FAILED -------------------------- 
+<br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [SHOPPING CART] but found [Shopping Cart]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:109)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:121)
+	at com.techpanda.page.TC_01_Header.TC_08_Verify_Header_My_Shopping_Cart(TC_01_Header.java:101)
 ... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.techpanda.page.TC_01_Header#TC_01_Verify_Header_Submenu_Account_Without_Login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-05-22 04:26:45,800] TC01 - Step 01: Click to 'Account' link in the header
+<br><br/>[INFO ] [2022-05-22 04:26:45,916] TC01 - Step 02: Get all submenu displayed
+<br><br/>[INFO ] [2022-05-22 04:26:46,032] TC01 - Step 03: Compare submenu displayed with expected menu
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.techpanda.page.TC_01_Header#TC_03_Verify_Header_My_Account_Page</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-05-22 04:26:46,036] TC03 - Step 01: Click to 'My Account' menu in the header
+<br><br/>[INFO ] [2022-05-22 04:26:49,495] TC03 - Step 02: Verify Login page is displayed
+<br><br/>[INFO ] [2022-05-22 04:26:49,567]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.techpanda.page.TC_01_Header#TC_05_Verify_Header_My_Wishlist_Page</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-05-22 04:26:49,569] TC05 - Step 01: Click to 'Account' link in the header
+<br><br/>[INFO ] [2022-05-22 04:26:49,651] TC05 - Step 02: Click to 'My Wishlist' menu in the header
+<br><br/>[INFO ] [2022-05-22 04:26:50,664] TC05 - Step 03: Verify Login page is displayed
+<br><br/>[INFO ] [2022-05-22 04:26:50,698]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.techpanda.page.TC_01_Header#TC_07_Verify_Header_My_Shopping_Cart_Blank</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-05-22 04:26:50,700] TC07 - Step 01: Click to 'Account' link in the header
+<br><br/>[INFO ] [2022-05-22 04:26:50,770] TC07 - Step 02: Click to 'My Cart' menu in the header
+<br><br/>[INFO ] [2022-05-22 04:26:51,684] TC07 - Step 03: Verify Shopping Cart is displayed
+<br><br/>[INFO ] [2022-05-22 04:26:51,725]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

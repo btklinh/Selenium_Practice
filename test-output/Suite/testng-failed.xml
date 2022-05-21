@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtentReportListenerV2"/>
+  </listeners>
   <test thread-count="5" name="Run on Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.techpanda.cart.TC_02_Add_Product_From_Product_List">
+      <class name="com.techpanda.page.TC_01_Header">
         <methods>
-          <include name="TC_06_Verify_Cart_Grandtotal_Price"/>
           <include name="beforeClass"/>
+          <include name="TC_08_Verify_Header_My_Shopping_Cart"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.techpanda.cart.TC_02_Add_Product_From_Product_List -->
+      </class> <!-- com.techpanda.page.TC_01_Header -->
     </classes>
   </test> <!-- Run on Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

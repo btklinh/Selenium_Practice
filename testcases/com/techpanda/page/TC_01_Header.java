@@ -29,10 +29,12 @@ public class TC_01_Header extends AbstractTest {
 
 	@Test
 	public void TC_01_Verify_Header_Submenu_Account_Without_Login() {
+		log.info("TC01 - Step 01: Click to 'Account' link in the header");
 		homePage.clickToHeaderAccountLink(driver);
 
+		log.info("TC01 - Step 02: Get all submenu displayed");
 		menuList = homePage.getMenuListWhenClickAccountLink(driver);
-		System.out.println(menuList);
+		
 
 		expectedMenuList = new ArrayList<String>();
 		expectedMenuList.add("My Account");
@@ -42,45 +44,61 @@ public class TC_01_Header extends AbstractTest {
 		expectedMenuList.add("Register");
 		expectedMenuList.add("Log In");
 
-		System.out.println(expectedMenuList);
-
+		log.info("TC01 - Step 03: Compare submenu displayed with expected menu");
 		Assert.assertEquals(menuList, expectedMenuList);
 	}
 
 	@Test
 	public void TC_03_Verify_Header_My_Account_Page() {
+		log.info("TC03 - Step 01: Click to 'My Account' menu in the header");
 		homePage.clickToHeaderMenuLinkByMenuName(driver, "My Account");
 		myAccountPage = PageGeneratorManager.getMyAccountPage(driver);
-		System.out.println(myAccountPage.getPageHeader(driver));
-		Assert.assertEquals(myAccountPage.getPageHeader(driver), "LOGIN OR CREATE AN ACCOUNT");
+		
+		log.info("TC03 - Step 02: Verify Login page is displayed");
+		verifyEquals(myAccountPage.getPageHeader(driver), "LOGIN OR CREATE AN ACCOUNT");
 	}
 
 	@Test
 	public void TC_05_Verify_Header_My_Wishlist_Page() {
+		log.info("TC05 - Step 01: Click to 'Account' link in the header");
 		myAccountPage.clickToHeaderAccountLink(driver);
+		
+		log.info("TC05 - Step 02: Click to 'My Wishlist' menu in the header");
 		myAccountPage.clickToHeaderMenuLinkByMenuName(driver, "My Wishlist");
 		System.out.println(myAccountPage.getPageHeader(driver));
-		Assert.assertEquals(myAccountPage.getPageHeader(driver), "LOGIN OR CREATE AN ACCOUNT");
+		
+		log.info("TC05 - Step 03: Verify Login page is displayed");
+		verifyEquals(myAccountPage.getPageHeader(driver), "LOGIN OR CREATE AN ACCOUNT");
 	}
 	
 	@Test
 	public void TC_07_Verify_Header_My_Shopping_Cart_Blank() {
+		log.info("TC07 - Step 01: Click to 'Account' link in the header");
 		myAccountPage.clickToHeaderAccountLink(driver);
+		
+		log.info("TC07 - Step 02: Click to 'My Cart' menu in the header");
 		myAccountPage.clickToHeaderMenuLinkByMenuName(driver, "My Cart");
 		shoppingCartPage = PageGeneratorManager.getShoppingCartPage(driver);
-		System.out.println("TC 08: " + shoppingCartPage.getPageHeader(driver));
-		Assert.assertEquals(shoppingCartPage.getPageHeader(driver), "SHOPPING CART IS EMPTY");
+		
+		log.info("TC07 - Step 03: Verify Shopping Cart is displayed");
+		verifyEquals(shoppingCartPage.getPageHeader(driver), "SHOPPING CART IS EMPTY");
 	}
 
 	@Test
 	public void TC_08_Verify_Header_My_Shopping_Cart() {
+		log.info("TC08 - Step 01: Click to 'Mobile' menu in the header");
 		shoppingCartPage.clickToContentMenuByMenuName(driver, "Mobile");
 		mobilePage = PageGeneratorManager.getMobilePage(driver);
+		
+		log.info("TC08 - Step 02: Add 'Iphone' to the cart");
 		mobilePage.clickToAddToCartButton(driver, "IPhone");
 		shoppingCartPage.clickToHeaderAccountLink(driver);
+		
+		log.info("TC08 - Step 03: Click to 'My Cart' menu in the header");
 		shoppingCartPage.clickToHeaderMenuLinkByMenuName(driver, "My Cart");
-		shoppingCartPage = PageGeneratorManager.getShoppingCartPage(driver);
-		Assert.assertEquals(shoppingCartPage.getPageTitle(driver), "SHOPPING CART");
+
+		log.info("TC08 - Step 04: Verify Shopping Cart is displayed");
+		verifyEquals(shoppingCartPage.getPageTitle(driver), "SHOPPING CART");
 	}
 	
 	@Parameters("browser")
