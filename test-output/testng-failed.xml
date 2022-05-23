@@ -8,13 +8,13 @@
   <test thread-count="5" name="Run on Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.techpanda.page.TC_01_Header">
+      <class name="com.java.basic.Part_05_Multibrowser">
         <methods>
-          <include name="beforeClass"/>
-          <include name="TC_08_Verify_Header_My_Shopping_Cart"/>
-          <include name="afterClass"/>
+          <include name="Test_01_Login"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.techpanda.page.TC_01_Header -->
+      </class> <!-- com.java.basic.Part_05_Multibrowser -->
     </classes>
   </test> <!-- Run on Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->
