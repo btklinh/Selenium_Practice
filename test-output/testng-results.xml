@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11919" started-at="2022-05-23T11:28:41Z" finished-at="2022-05-23T11:28:53Z">
+  <suite started-at="2022-05-23T15:58:13Z" name="Suite" finished-at="2022-05-23T15:58:21Z" duration-ms="8034">
     <groups>
+      <group name="test">
+        <method signature="Part_05_Multibrowser.Test_01_Login()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" name="Test_01_Login" class="com.java.basic.Part_05_Multibrowser"/>
+      </group> <!-- test -->
+      <group name="bonding">
+        <method signature="Part_05_Multibrowser.Test_01_Login()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" name="Test_01_Login" class="com.java.basic.Part_05_Multibrowser"/>
+        <method signature="Part_05_Multibrowser.Test_02_Verify_Helpdesk_Menu()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" name="Test_02_Verify_Helpdesk_Menu" class="com.java.basic.Part_05_Multibrowser"/>
+        <method signature="Part_05_Multibrowser.Test_04_Verify_Logout()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" name="Test_04_Verify_Logout" class="com.java.basic.Part_05_Multibrowser"/>
+      </group> <!-- bonding -->
     </groups>
-    <test name="Run on Chrome" duration-ms="11919" started-at="2022-05-23T11:28:41Z" finished-at="2022-05-23T11:28:53Z">
+    <test started-at="2022-05-23T15:58:13Z" name="Run on Chrome" finished-at="2022-05-23T15:58:21Z" duration-ms="8034">
       <class name="com.java.basic.Part_05_Multibrowser">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="beforeTest" is-config="true" duration-ms="4281" started-at="2022-05-23T11:28:41Z" finished-at="2022-05-23T11:28:46Z">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" started-at="2022-05-23T15:58:13Z" name="beforeTest" finished-at="2022-05-23T15:58:16Z" duration-ms="3073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Test_01_Login()[pri:1, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="Test_01_Login" duration-ms="5134" started-at="2022-05-23T11:28:46Z" finished-at="2022-05-23T11:28:51Z">
+        <test-method signature="Test_01_Login()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" started-at="2022-05-23T15:58:16Z" name="Test_01_Login" finished-at="2022-05-23T15:58:20Z" duration-ms="3773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_01_Login -->
-        <test-method status="PASS" signature="Test_03_test()[pri:2, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="Test_03_test" duration-ms="737" started-at="2022-05-23T11:28:51Z" finished-at="2022-05-23T11:28:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_03_test -->
-        <test-method status="PASS" signature="Test_02_Verify_Helpdesk_Menu()[pri:3, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="Test_02_Verify_Helpdesk_Menu" duration-ms="614" started-at="2022-05-23T11:28:52Z" finished-at="2022-05-23T11:28:52Z">
+        <test-method signature="Test_02_Verify_Helpdesk_Menu()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" started-at="2022-05-23T15:58:20Z" name="Test_02_Verify_Helpdesk_Menu" finished-at="2022-05-23T15:58:21Z" duration-ms="667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_02_Verify_Helpdesk_Menu -->
-        <test-method status="PASS" signature="Test_04_Verify_Logout()[pri:4, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="Test_04_Verify_Logout" duration-ms="364" started-at="2022-05-23T11:28:52Z" finished-at="2022-05-23T11:28:53Z">
+        <test-method signature="Test_04_Verify_Logout()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" started-at="2022-05-23T15:58:21Z" name="Test_04_Verify_Logout" finished-at="2022-05-23T15:58:21Z" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_04_Verify_Logout -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="afterTest" is-config="true" duration-ms="765" started-at="2022-05-23T11:28:53Z" finished-at="2022-05-23T11:28:53Z">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.java.basic.Part_05_Multibrowser@2cf3d63b]" started-at="2022-05-23T15:58:21Z" name="afterTest" finished-at="2022-05-23T15:58:21Z" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

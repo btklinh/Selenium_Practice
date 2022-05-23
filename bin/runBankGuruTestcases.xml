@@ -7,13 +7,18 @@
 	</listeners>
 
 	<test name="Run on Chrome">
+		<groups>
+			<run>
+				<include name="bonding" />
+			</run>
+		</groups>
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.java.basic.Part_05_Multibrowser" />
 		</classes>
 	</test>
-	
-<!--	<test name="Run on Firefox">
+
+	<!--	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.java.basic.Part_03_TestNG_Annotation" />
