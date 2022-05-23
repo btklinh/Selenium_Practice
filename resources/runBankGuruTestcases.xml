@@ -9,9 +9,17 @@
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.techpanda.page.TC_01_Header" />
+			<class name="com.java.basic.Part_05_Multibrowser" />
 		</classes>
 	</test>
+	
+<!--	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.java.basic.Part_03_TestNG_Annotation" />
+			<class name="com.java.basic.Part_04_TestNG_Annotation_2" />
+		</classes>
+	</test>-->
 
 	<!--	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />

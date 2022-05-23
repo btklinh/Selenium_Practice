@@ -1,242 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:45,800] TC01 - Step 01: Click to 'Account' link in the header
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:45,916] TC01 - Step 02: Get all submenu displayed
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:46,032] TC01 - Step 03: Compare submenu displayed with expected menu
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:46,036] TC03 - Step 01: Click to 'My Account' menu in the header
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:49,495] TC03 - Step 02: Verify Login page is displayed
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:49,567]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:49,569] TC05 - Step 01: Click to 'Account' link in the header
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:49,651] TC05 - Step 02: Click to 'My Wishlist' menu in the header
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:50,664] TC05 - Step 03: Verify Login page is displayed
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:50,698]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:50,700] TC07 - Step 01: Click to 'Account' link in the header
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:50,770] TC07 - Step 02: Click to 'My Cart' menu in the header
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:51,684] TC07 - Step 03: Verify Shopping Cart is displayed
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:51,725]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:51,727] TC08 - Step 01: Click to 'Mobile' menu in the header
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:53,081] TC08 - Step 02: Add 'Iphone' to the cart
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:54,841] TC08 - Step 03: Click to 'My Cart' menu in the header
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:55,554] TC08 - Step 04: Verify Shopping Cart is displayed
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2022-05-22 04:26:55,559]  -------------------------- FAILED -------------------------- 
-<br>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-05-21T21:26:39Z" name="Suite" finished-at="2022-05-21T21:26:55Z" duration-ms="15779">
+  <suite name="Suite" duration-ms="8789" started-at="2022-05-23T04:45:13Z" finished-at="2022-05-23T04:45:21Z">
     <groups>
     </groups>
-    <test started-at="2022-05-21T21:26:39Z" name="Run on Chrome" finished-at="2022-05-21T21:26:55Z" duration-ms="15779">
-      <class name="com.techpanda.page.TC_01_Header">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.techpanda.page.TC_01_Header@1ed6388a]" started-at="2022-05-21T21:26:39Z" name="beforeClass" finished-at="2022-05-21T21:26:45Z" duration-ms="5878" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Run on Chrome" duration-ms="8789" started-at="2022-05-23T04:45:13Z" finished-at="2022-05-23T04:45:21Z">
+      <class name="com.java.basic.Part_05_Multibrowser">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="beforeTest" is-config="true" duration-ms="4110" started-at="2022-05-23T04:45:13Z" finished-at="2022-05-23T04:45:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Verify_Header_Submenu_Account_Without_Login()[pri:0, instance:com.techpanda.page.TC_01_Header@1ed6388a]" started-at="2022-05-21T21:26:45Z" name="TC_01_Verify_Header_Submenu_Account_Without_Login" finished-at="2022-05-21T21:26:46Z" duration-ms="237" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:45,800] TC01 - Step 01: Click to 'Account' link in the header
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:45,916] TC01 - Step 02: Get all submenu displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:46,032] TC01 - Step 03: Compare submenu displayed with expected menu
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_01_Verify_Header_Submenu_Account_Without_Login -->
-        <test-method signature="TC_03_Verify_Header_My_Account_Page()[pri:0, instance:com.techpanda.page.TC_01_Header@1ed6388a]" started-at="2022-05-21T21:26:46Z" name="TC_03_Verify_Header_My_Account_Page" finished-at="2022-05-21T21:26:49Z" duration-ms="3532" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:46,036] TC03 - Step 01: Click to 'My Account' menu in the header
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:49,495] TC03 - Step 02: Verify Login page is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:49,567]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_03_Verify_Header_My_Account_Page -->
-        <test-method signature="TC_05_Verify_Header_My_Wishlist_Page()[pri:0, instance:com.techpanda.page.TC_01_Header@1ed6388a]" started-at="2022-05-21T21:26:49Z" name="TC_05_Verify_Header_My_Wishlist_Page" finished-at="2022-05-21T21:26:50Z" duration-ms="1131" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:49,569] TC05 - Step 01: Click to 'Account' link in the header
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:49,651] TC05 - Step 02: Click to 'My Wishlist' menu in the header
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:50,664] TC05 - Step 03: Verify Login page is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:50,698]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_05_Verify_Header_My_Wishlist_Page -->
-        <test-method signature="TC_07_Verify_Header_My_Shopping_Cart_Blank()[pri:0, instance:com.techpanda.page.TC_01_Header@1ed6388a]" started-at="2022-05-21T21:26:50Z" name="TC_07_Verify_Header_My_Shopping_Cart_Blank" finished-at="2022-05-21T21:26:51Z" duration-ms="1025" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:50,700] TC07 - Step 01: Click to 'Account' link in the header
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:50,770] TC07 - Step 02: Click to 'My Cart' menu in the header
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:51,684] TC07 - Step 03: Verify Shopping Cart is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:51,725]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_07_Verify_Header_My_Shopping_Cart_Blank -->
-        <test-method signature="TC_08_Verify_Header_My_Shopping_Cart()[pri:0, instance:com.techpanda.page.TC_01_Header@1ed6388a]" started-at="2022-05-21T21:26:51Z" name="TC_08_Verify_Header_My_Shopping_Cart" finished-at="2022-05-21T21:26:55Z" duration-ms="3834" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [SHOPPING CART] but found [Shopping Cart]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [SHOPPING CART] but found [Shopping Cart]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:442)
-at commons.AbstractTest.checkEquals(AbstractTest.java:109)
-at commons.AbstractTest.verifyEquals(AbstractTest.java:121)
-at com.techpanda.page.TC_01_Header.TC_08_Verify_Header_My_Shopping_Cart(TC_01_Header.java:101)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:51,727] TC08 - Step 01: Click to 'Mobile' menu in the header
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:53,081] TC08 - Step 02: Add 'Iphone' to the cart
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:54,841] TC08 - Step 03: Click to 'My Cart' menu in the header
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:55,554] TC08 - Step 04: Verify Shopping Cart is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2022-05-22 04:26:55,559]  -------------------------- FAILED -------------------------- 
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_08_Verify_Header_My_Shopping_Cart -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.techpanda.page.TC_01_Header@1ed6388a]" started-at="2022-05-21T21:26:55Z" name="afterClass" finished-at="2022-05-21T21:26:55Z" duration-ms="122" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Test_01_Login()[pri:0, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="Test_01_Login" duration-ms="3954" started-at="2022-05-23T04:45:17Z" description="Login to the hrm system" finished-at="2022-05-23T04:45:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.techpanda.page.TC_01_Header -->
+        </test-method> <!-- Test_01_Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.java.basic.Part_05_Multibrowser@6e6c3152]" name="afterTest" is-config="true" duration-ms="706" started-at="2022-05-23T04:45:21Z" finished-at="2022-05-23T04:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.java.basic.Part_05_Multibrowser -->
     </test> <!-- Run on Chrome -->
   </suite> <!-- Suite -->
 </testng-results>

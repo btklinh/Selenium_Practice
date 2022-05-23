@@ -29,3 +29,22 @@
 [INFO ] [2022-05-22 04:26:54,841] TC08 - Step 03: Click to 'My Cart' menu in the header
 [INFO ] [2022-05-22 04:26:55,554] TC08 - Step 04: Verify Shopping Cart is displayed
 [INFO ] [2022-05-22 04:26:55,559]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-05-23 10:23:30,357] TC01 - Step 01: Click to 'Account' link in the header
+[INFO ] [2022-05-23 10:23:30,586] TC01 - Step 02: Get all submenu displayed
+[INFO ] [2022-05-23 10:23:30,776] TC01 - Step 03: Compare submenu displayed with expected menu
+[INFO ] [2022-05-23 10:23:30,782] TC03 - Step 01: Click to 'My Account' menu in the header
+[INFO ] [2022-05-23 10:23:34,014] TC03 - Step 02: Verify Login page is displayed
+[INFO ] [2022-05-23 10:23:34,115]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-05-23 10:23:34,118] TC05 - Step 01: Click to 'Account' link in the header
+[INFO ] [2022-05-23 10:23:34,247] TC05 - Step 02: Click to 'My Wishlist' menu in the header
+[INFO ] [2022-05-23 10:23:35,377] TC05 - Step 03: Verify Login page is displayed
+[INFO ] [2022-05-23 10:23:35,582]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-05-23 10:23:35,585] TC07 - Step 01: Click to 'Account' link in the header
+[INFO ] [2022-05-23 10:23:35,703] TC07 - Step 02: Click to 'My Cart' menu in the header
+[INFO ] [2022-05-23 10:23:36,699] TC07 - Step 03: Verify Shopping Cart is displayed
+[INFO ] [2022-05-23 10:23:36,754]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-05-23 10:23:36,757] TC08 - Step 01: Click to 'Mobile' menu in the header
+[INFO ] [2022-05-23 10:23:38,519] TC08 - Step 02: Add 'Iphone' to the cart
+[INFO ] [2022-05-23 10:23:40,508] TC08 - Step 03: Click to 'My Cart' menu in the header
+[INFO ] [2022-05-23 10:23:41,298] TC08 - Step 04: Verify Shopping Cart is displayed
+[INFO ] [2022-05-23 10:23:41,302]  -------------------------- FAILED -------------------------- 
